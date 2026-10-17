@@ -1,0 +1,24 @@
+# Secrets and local config: never commit these
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Local databases and data dumps (prototype uses synthetic data only)
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+pgdata/
+data/local/
+
+# Language and tooling noise
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+.idea/
+.vscode/
